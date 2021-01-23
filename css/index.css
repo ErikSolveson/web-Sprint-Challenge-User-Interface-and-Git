@@ -276,15 +276,56 @@ footer nav a {
 #primary-nav {
   display: flex;
   justify-content: space-between;
-  margin: 1em;
-  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  align-items: baseline;
 }
 
 #primary-nav a {
   text-decoration: none;
   color: black;
+  font-size: 0.8em;
 }
 
 .hero-img {
   margin-bottom: 1em;
+}
+
+hr {
+  border: 1px dotted black;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.learn-more-button {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 0.5em;
+  width: 6.5em;
+  color: black;
+}
+
+.column img,
+.column p {
+  margin-bottom: 1em;
+}
+
+.penultimate-section {
+  margin: 1em;
+}
+
+.first-section {
+  margin-left: 1em;
 }
