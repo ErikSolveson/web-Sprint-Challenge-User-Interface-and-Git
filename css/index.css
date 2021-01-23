@@ -272,3 +272,19 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+#primary-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  align-items: center;
+}
+
+#primary-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-img {
+  margin-bottom: 1em;
+}
